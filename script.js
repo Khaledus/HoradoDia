@@ -2,7 +2,8 @@ function carregar() {
     let msg = window.document.getElementById('msg')
     let img = window.document.getElementById('imagem')
     let data = new Date()
-    let hora =  data.getHours()
+    //let hora =  data.getHours()
+    let hora = 14
     let minutos = data.getMinutes()
     msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos`
 
